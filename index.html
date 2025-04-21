@@ -6,50 +6,107 @@
   <title>Портфоліо Елі</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f3f3f3;
       margin: 0;
-      padding: 20px;
-      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f5fc;
+      color: #2e2e2e;
     }
+
+    header {
+      background: linear-gradient(to right, #c1a3ff, #e0ccff);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      border-bottom: 5px solid #b792f0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
     .container {
-      max-width: 700px;
-      margin: auto;
+      max-width: 800px;
+      margin: 30px auto;
       background: white;
       padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
-    h1, h2 {
-      color: #5a2e98;
+
+    h2 {
+      color: #7a4eb7;
+      border-bottom: 2px solid #e0ccff;
+      padding-bottom: 5px;
     }
-    p {
-      line-height: 1.6;
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li::before {
+      content: "🌟";
+      margin-right: 8px;
+    }
+
+    a {
+      color: #7a4eb7;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 10px 20px;
+      background: #d6b3ff;
+      border-radius: 20px;
+      color: white;
+      transition: background 0.3s ease;
+    }
+
+    .contact a:hover {
+      background: #b792f0;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Вітаю,мене звати Самофал Ельвіра Олегівна</h1>
-    <p>Мені 18 років. Я початківець у веброзробці й цікавлюсь HTML, CSS та платформою Figma.</p>
 
+  <header>
+    <h1>Привіт! Я Еля</h1>
+    <p>Молодий веб-ентузіаст | Дизайн + Код + Ідеї</p>
+  </header>
+
+  <div class="container">
     <h2>Про мене</h2>
-    <p>Я люблю вчитися, експериментувати з кодом і дизайном. Прагну стати розробницею сайтів, макетів та іншого цифрового контенту. <p>
-  
+    <p>Мені 18 років. Я початківець у веброзробці, люблю створювати сайти та макети у Figma. Прагну стати професійною розробницею вебсайтів, макетів та іншого цифрового контенту. Володію англійською мовою на високому рівні та вільно розмовляю російською.</p>
 
     <h2>Мої навички</h2>
     <ul>
       <li>HTML5</li>
       <li>Базовий CSS</li>
       <li>Платформа Figma</li>
-      <li>Використання GitHub</li>
-      <li>Англійська мова — високий рівень</li>
-      <li>Російська мова — вільне володіння</li>
+      <li>GitHub (базовий рівень)</li>
+      <li>Англійська — високий рівень</li>
+      <li>Російська — вільне володіння</li>
     </ul>
 
     <h2>Контакти</h2>
-    <p>Email: <a href="mailto:samofalelya@gmail.com">samofalelya@gmail.com</a></p>
-    <p>Telegram: <a href="https://t.me/ellyyaa.s">@ellyyaa.s</a></p>
+    <div class="contact">
+      <a href="mailto:samofalelya@gmail.com">📧 Email</a>
+      <a href="https://t.me/ellyyaa.s" target="_blank">💬 Telegram</a>
+    </div>
   </div>
+
 </body>
 </html>
