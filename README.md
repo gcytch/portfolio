@@ -8,7 +8,7 @@
 
 - 💻 [Мій сайт](https://gcytch.github.io/portfolio/)  
 - 📁 [Цей репозиторій](https://github.com/gcytch/portfolio)  
-- 🧑‍🏫 [Загальний репозиторій викладача](hhttps://github.com/PorokhovnichenkoIryna/learning_git)
+- 🧑‍🏫 [Загальний репозиторій викладача](https://github.com/PorokhovnichenkoIryna/learning_git)
 
 ---
 
