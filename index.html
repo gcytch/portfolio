@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Портфоліо Елі</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
       margin: 0;
@@ -25,19 +26,11 @@
       font-size: 36px;
     }
 
-    .container {
-      max-width: 800px;
-      margin: 30px auto;
-      background: white;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    }
-
     h2 {
       color: #7a4eb7;
       border-bottom: 2px solid #e0ccff;
       padding-bottom: 5px;
+      margin-top: 30px;
     }
 
     ul {
@@ -67,10 +60,13 @@
       border-radius: 20px;
       color: white;
       transition: background 0.3s ease;
+      text-align: center;
+      width: 100%;
     }
 
     .contact a:hover {
       background: #b792f0;
+      color: white;
     }
 
     @media (max-width: 600px) {
@@ -87,30 +83,44 @@
     <p>Молодий веб-ентузіаст | Дизайн + Код + Ідеї</p>
   </header>
 
-  <div class="container">
-    <h2>Про мене</h2>
-    <p>Мені 18 років. Я початківець у веброзробці, люблю створювати сайти та макети у Figma. Прагну стати професійною розробницею вебсайтів та іншого цифрового контенту.</p>
+  <div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8 bg-white p-4 rounded shadow">
+        
+        <h2>Про мене</h2>
+        <p>Мені 18 років. Я початківець у веброзробці, люблю створювати сайти та макети у Figma. Прагну стати професійною розробницею вебсайтів та іншого цифрового контенту.</p>
 
-    <h2>Мої навички</h2>
-    <ul>
-      <li>HTML5</li>
-      <li>Базовий CSS</li>
-      <li>Платформа Figma</li>
-      <li>GitHub (базовий рівень)</li>
-      <li>Українська - рідна мова</li>
-      <li>Англійська - високий рівень</li>
-      <li>Російська - вільне володіння</li>
-    </ul>
+        <h2>Мої навички</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>Базовий CSS</li>
+          <li>Платформа Figma</li>
+          <li>GitHub (базовий рівень)</li>
+          <li>Українська - рідна мова</li>
+          <li>Англійська - високий рівень</li>
+          <li>Російська - вільне володіння</li>
+        </ul>
 
-    <h2>Дії</h2>
-    <div class="contact">
-      <a href="https://porokhovnichenkoiryna.github.io/learning_git/public/" target="_blank">Повернутися назад</a>
-      <a href="https://github.com/gcytch/portfolio"> Мій репозиторій</a>
-      <a href="mailto:samofalelya@gmail.com">📧 Email</a>
-      <a href="https://t.me/ellyyaa.s" target="_blank">💬 Telegram</a>
-     
+        <h2>Дії</h2>
+        <div class="row g-2 contact">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <a href="https://porokhovnichenkoiryna.github.io/learning_git/public/" target="_blank">🔙 Назад</a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <a href="https://github.com/gcytch/portfolio" target="_blank">📁 Репозиторій</a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <a href="mailto:samofalelya@gmail.com">📧 Email</a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <a href="https://t.me/ellyyaa.s" target="_blank">💬 Telegram</a>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
